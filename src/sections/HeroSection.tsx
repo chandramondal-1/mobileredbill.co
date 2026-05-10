@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const FRAME_COUNT = 210
-const FRAME_URL = (index: number) => `/hero-sequence/ezgif-frame-${index.toString().padStart(3, '0')}.jpg`
+const FRAME_URL = (index: number) => `hero-sequence/ezgif-frame-${index.toString().padStart(3, '0')}.jpg`
 
 export default function HeroSection() {
   const containerRef = useRef<HTMLDivElement>(null)
