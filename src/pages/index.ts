@@ -1,0 +1,7 @@
+export { default as Home } from './Home'
+export { default as Products } from './Products'
+export { default as Esports } from './Esports'
+export { default as Athletes } from './Athletes'
+export { default as About } from './About'
+export { default as Contact } from './Contact'
+export { default as Dashboard } from './Dashboard'
